@@ -39,13 +39,3 @@ new_sqlite_classes = [ "NotificationsHub" ]
 tag = "v2-backup-transfer-runner"
 new_sqlite_classes = [ "BackupTransferRunner" ]
 
-[observability.logs]
-enabled = false
-head_sampling_rate = 1
-invocation_logs = true
-persist = true
-
-[observability.traces]
-enabled = true
-head_sampling_rate = 1
-persist = true
